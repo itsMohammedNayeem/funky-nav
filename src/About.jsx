@@ -1,20 +1,22 @@
-function App() {
+const About = () => {
   return (
     <>
       <nav>
         <ul className="nav-list">
+          <li>
+            <a href="index.html">
+              <span>Home</span>
+            </a>
+          </li>
           <li className="active">
-            <a href="index.html" aria-current="page">
-              Home
+            <a href="about.html" aria-current="page">
+              <span>About</span>
             </a>
           </li>
           <li>
-            <a>
-              <about href="about.html">About</about>
+            <a href="blog.html">
+              <span>Blog</span>
             </a>
-          </li>
-          <li>
-            <a href="blog.html">Blog</a>
           </li>
           <li>
             <a href="#">Another</a>
@@ -28,10 +30,10 @@ function App() {
         </ul>
       </nav>
       <main>
-        <h1>Home</h1>
+        <h1>About</h1>
       </main>
     </>
   );
-}
+};
 
-export default App;
+export default About;
