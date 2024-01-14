@@ -1,22 +1,18 @@
-const About = () => {
+function Home() {
   return (
     <>
       <nav>
         <ul className="nav-list">
-          <li>
-            <a href="/">
-              <span>Home</span>
-            </a>
-          </li>
           <li className="active">
-            <a href="/About" aria-current="page">
-              <span>About</span>
+            <a href="/" aria-current="page">
+              Home
             </a>
           </li>
           <li>
-            <a href="/Blog">
-              <span>Blog</span>
-            </a>
+            <a href="/About">About</a>
+          </li>
+          <li>
+            <a href="/Blog">Blog</a>
           </li>
           <li>
             <a href="/">Another</a>
@@ -30,10 +26,10 @@ const About = () => {
         </ul>
       </nav>
       <main>
-        <h1>About</h1>
+        <h1>Home</h1>
       </main>
     </>
   );
-};
+}
 
-export default About;
+export default Home;

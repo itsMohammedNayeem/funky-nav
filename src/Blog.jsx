@@ -4,28 +4,28 @@ const Blog = () => {
       <nav>
         <ul className="nav-list">
           <li>
-            <a href="index.html">
+            <a href="/">
               <span>Home</span>
             </a>
           </li>
           <li>
-            <a href="about.html">
+            <a href="/About">
               <span>About</span>
             </a>
           </li>
           <li className="active">
-            <a href="blog.html" aria-current="page">
+            <a href="/Blog" aria-current="page">
               <span>Blog</span>
             </a>
           </li>
           <li>
-            <a href="#">Another</a>
+            <a href="/">Another</a>
           </li>
           <li>
-            <a href="#">Page</a>
+            <a href="/">Page</a>
           </li>
           <li>
-            <a href="#">And another</a>
+            <a href="/">And another</a>
           </li>
         </ul>
       </nav>

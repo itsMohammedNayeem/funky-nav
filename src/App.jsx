@@ -1,36 +1,17 @@
+import Home from "./Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./About";
+import Blog from "./Blog";
+
 function App() {
   return (
-    <>
-      <nav>
-        <ul className="nav-list">
-          <li className="active">
-            <a href="index.html" aria-current="page">
-              Home
-            </a>
-          </li>
-          <li>
-            <a>
-              <about href="about.html">About</about>
-            </a>
-          </li>
-          <li>
-            <a href="blog.html">Blog</a>
-          </li>
-          <li>
-            <a href="#">Another</a>
-          </li>
-          <li>
-            <a href="#">Page</a>
-          </li>
-          <li>
-            <a href="#">And another</a>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <h1>Home</h1>
-      </main>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </Router>
   );
 }
 
