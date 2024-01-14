@@ -9,12 +9,12 @@ const About = () => {
             </a>
           </li>
           <li className="active">
-            <a href="/About" aria-current="page">
+            <a href="/about" aria-current="page">
               <span>About</span>
             </a>
           </li>
           <li>
-            <a href="/Blog">
+            <a href="/blog">
               <span>Blog</span>
             </a>
           </li>

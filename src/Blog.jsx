@@ -9,12 +9,12 @@ const Blog = () => {
             </a>
           </li>
           <li>
-            <a href="/About">
+            <a href="/about">
               <span>About</span>
             </a>
           </li>
           <li className="active">
-            <a href="/Blog" aria-current="page">
+            <a href="/blog" aria-current="page">
               <span>Blog</span>
             </a>
           </li>

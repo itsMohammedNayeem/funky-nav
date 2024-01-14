@@ -1,7 +1,7 @@
 function Home() {
   return (
-    <>
-      <nav>
+    <div className="grid grid-cols-[20rem_1fr] gap-[2rem] font-mono bg-[#123] m-0 text-[1.25rem] text-white h-screen w-screen">
+      <nav className="bg-[#234] fixed top-0 bottom-0 left-0 p-[2rem]">
         <ul className="nav-list">
           <li className="active">
             <a href="/" aria-current="page">
@@ -9,10 +9,10 @@ function Home() {
             </a>
           </li>
           <li>
-            <a href="/About">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="/Blog">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li>
             <a href="/">Another</a>
@@ -28,7 +28,7 @@ function Home() {
       <main>
         <h1>Home</h1>
       </main>
-    </>
+    </div>
   );
 }
 
